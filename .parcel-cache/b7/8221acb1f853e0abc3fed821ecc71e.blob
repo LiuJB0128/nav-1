@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover">
+    <title>前航 - 前端导航网站</title>
+    <link rel="stylesheet" href="69189ad0d02679529c45411aa6b9e954">
+</head>
+
+<body>
+    <div id="mainWrap" style="e8eea2a71b4678168581c7267247e5aa">
+        <div id="searchWrap" style="035a1ffd5729d57fcbecef635eb3fe34">
+            <form action="" method="GET" id="search-form">
+                <input id="search" type="text" name="wd" placeholder="" autocomplete="off" autofocus="" data-engine-start="https://www.baidu.com/s?wd=" data-engine-end="">
+                <button id="search-btn" title="搜索">搜索</button>
+
+            </form>
+        </div>
+
+        <div id="siteWrap">
+            <ul id="siteContainer" style="8d9cdfe518ec71bbc62ebf679edf2ee1">
+                <a class="site-a" href="6f2f06ac03b0b8ddbdd6a877c875d983" data-sort="0" style="096f72833080b7b4576e22eb838afad8">
+                    <li class="site-li" style="7965758bfab9d0b616f6b519e7abca0a">
+                    </li>
+                    <span class="siteTitle" style="a4a6a0640fdfef668f126cd16f1fb34c">掘金</span>
+                </a>
+            </ul>
+        </div>
+    </div>
+
+    <script src="050f667e079614d598ce9c8deb1fba5f"></script>
+</body>
+
+</html>

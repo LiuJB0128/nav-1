@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover">
+    <title>前航 - 前端导航网站</title>
+    <link rel="stylesheet" href="/index.HASH_REF_f0918a547ace1733ebc251b0de60a1d7.css">
+</head>
+
+<body>
+    <header class="globalHeader">
+        <input type="text">
+        <button id="Search">图</button>
+    </header>
+
+    <main class="globalMain">
+        <div class="siteWrap">
+        <ul class="siteContainer">
+            <a class="site" title="掘金" href="https://juejin.cn/">
+               <span class="siteTitle">掘金</span>
+            </a>
+            <button class="addButton">add</button>
+        </ul>
+    </div>
+    </main>
+
+    <script src="/index.HASH_REF_e9312995559a911a6f9b63a6bd78eeec.js"></script>
+</body>
+
+</html>

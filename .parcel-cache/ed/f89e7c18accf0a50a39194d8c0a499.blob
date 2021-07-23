@@ -1,0 +1,13 @@
+.globalHeader {
+}
+.globalHeader > input {
+}
+.globalHeader > button {
+}
+
+.globalMain {
+}
+.siteContainer .tile {
+}
+.siteContainer .addButton {
+}

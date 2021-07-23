@@ -1,0 +1,24 @@
+/* css reset */
+* {
+  box-sizing: border-box;
+}
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+.globalHeader {
+}
+.globalHeader > input {
+}
+.globalHeader > button {
+}
+
+.globalMain {
+}
+.siteContainer .tile {
+}
+.siteContainer .addButton {
+}
+
+/*# sourceMappingURL=index.HASH_REF_f0918a547ace1733ebc251b0de60a1d7.css.map */

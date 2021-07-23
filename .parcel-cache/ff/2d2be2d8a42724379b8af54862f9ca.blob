@@ -1,0 +1,4 @@
+$('.addButton')
+  .on('click', ()=>{
+      window.prompt
+  })

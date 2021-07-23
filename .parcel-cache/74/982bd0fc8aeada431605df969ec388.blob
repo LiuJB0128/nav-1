@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover">
+    <title>前航 - 前端导航网站</title>
+    <link rel="stylesheet" href="69189ad0d02679529c45411aa6b9e954">
+</head>
+
+<body>
+    <header class="globalHeader">
+        <input type="text">
+        <button id="Search">图</button>
+    </header>
+
+    <main class="globalMain">
+        <div class="siteWrap">
+            <ul class="siteContainer">
+                <a class="site-a" title="掘金" href="6f2f06ac03b0b8ddbdd6a877c875d983">
+                    <li class="site-li">
+                        <span class="siteTitle">掘金</span>
+                    </li>
+                </a>
+                <button class="addButton">add</button>
+            </ul>
+        </div>
+    </main>
+
+    <script src="050f667e079614d598ce9c8deb1fba5f"></script>
+</body>
+
+</html>

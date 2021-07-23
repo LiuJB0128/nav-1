@@ -1,0 +1,4 @@
+$('.addButton')
+  .on('click', ()=>{
+      const url = window.prompt('网址')
+  })

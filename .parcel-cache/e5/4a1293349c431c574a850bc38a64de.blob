@@ -1,0 +1,22 @@
+/* css reset */
+* {
+  box-sizing: border-box;
+}
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+.globalHeader {
+}
+.globalHeader > input {
+}
+.globalHeader > button {
+}
+
+.globalMain {
+}
+.siteContainer .tile {
+}
+.siteContainer .addButton {
+}

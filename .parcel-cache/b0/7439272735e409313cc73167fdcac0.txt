@@ -1,0 +1,13 @@
+12
+24E:\Liu\nav-1\src\main.js132715075757234688 0
+20E:\Liu\nav-1\.vscode132714906713425376 1
+26E:\Liu\nav-1\src\style.css132715078694114056 0
+16E:\Liu\nav-1\src132714851510408816 1
+17E:\Liu\nav-1\dist132715238399033759 1
+27E:\Liu\nav-1\src\index.html132715080099751168 0
+35E:\Liu\nav-1\dist\index.ffbb3777.js132715238398894129 0
+40E:\Liu\nav-1\dist\index.0facd170.css.map132715238399033759 0
+36E:\Liu\nav-1\dist\index.0facd170.css132715238398894129 0
+39E:\Liu\nav-1\dist\index.ffbb3777.js.map132715238398934015 0
+28E:\Liu\nav-1\dist\index.html132715238398894129 0
+34E:\Liu\nav-1\.vscode\settings.json132714906940921788 0

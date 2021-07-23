@@ -1,0 +1,20 @@
+$('.addButton')
+  .on('click', ()=>{
+      let name = window.prompt('名称')
+      let url = window.prompt('网址') 
+      if(url.indexOf('http')!==0){
+          url = 'https://' + url
+      }
+      const $siteList = $('.siteList')
+      const $lastLi = $siteList.find('li.last')
+      const $li = $(`<li>
+            <a href="${url}">
+                <div class="site">
+                    <div class="logo">
+                        <img src="./images/juejin.png" alt="">
+                    </div>
+                    <div class="title">${name}</div>
+                </div>
+            </a>
+      </li>`).insertBefore($lastLi)
+  })

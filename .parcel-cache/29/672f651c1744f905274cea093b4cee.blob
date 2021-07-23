@@ -1,0 +1,68 @@
+/* css reset */
+*{box-sizing: border-box;}
+*:before,*:after{box-sizing: border-box;}
+*{margin:0; padding:0;}
+ul,ol{ list-style: none; }
+
+/* style */
+body {
+  background-color: #eee;
+}
+.globalHeader {
+  border: 1px solid #eee;
+  background-color: #fff;
+  border-radius: 6px;
+  overflow: hidden;
+  margin: 215px 30px 36px 30px;
+  display: flex;
+  justify-content: space-between;
+}
+.globalHeader > input {
+  outline: none;
+  width: 86%;
+  height: 46px;
+  padding-left: 10px;
+  border: none;  
+}
+
+.globalHeader > button {
+  padding: 0 3px;
+  width: 14%;
+  background-color: #fff;
+  border: none;
+  white-space: nowrap;
+}
+
+.globalMain {
+
+}
+
+.siteList {
+
+}
+.siteList > li {
+
+}
+.siteList .site {
+  border: 1px solid red;
+
+}
+.siteList .site > .logo {
+  border: 1px solid red;
+  width: 46px;
+  height: 46px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.siteList .site > .title {
+  margin-top: 4px;
+  font-size: 13px;
+  direction: ltr;
+} 
+.siteList .addButton {
+
+}

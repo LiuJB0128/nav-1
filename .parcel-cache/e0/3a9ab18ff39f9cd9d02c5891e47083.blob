@@ -1,0 +1,59 @@
+/* css reset */
+*{box-sizing: border-box;}
+*:before,*:after{box-sizing: border-box;}
+*{margin:0; padding:0;}
+ul,ol{ list-style: none; }
+
+/* style */
+body {
+  background-color: #eee;
+}
+.globalHeader {
+  border: 1px solid #000;
+  background-color: #fff;
+  border-radius: 10px;
+  overflow: auto;
+  margin: 215px 30px 36px 30px;
+  display: flex;
+  justify-content: space-between;
+}
+.globalHeader > input {
+  outline: none;
+  width: 86%;
+  height: 46px;
+  padding-left: 10px;
+  border: none;  
+}
+
+.globalHeader > button {
+  padding: 0 3px;
+  width: 14%;
+  background-color: #fff;
+  border: none;
+  white-space: nowrap;
+}
+
+.globalMain {
+
+}
+
+.siteList {
+
+}
+.siteList > li {
+
+}
+.siteList .site {
+
+}
+.siteList .site > .logo {
+
+}
+
+.siteList .site > .link {
+
+} 
+.siteList .addButton {
+
+}
+/*# sourceMappingURL=index.HASH_REF_f0918a547ace1733ebc251b0de60a1d7.css.map */

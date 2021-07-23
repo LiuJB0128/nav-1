@@ -1,0 +1,53 @@
+const $siteList = $('.siteList')
+const $lastLi = $siteList.find('li.last')
+const hashMap = [
+    {logo: '<img src="https://juejin.cn/favicon.ico" alt="">', url: 'https://juejin.cn/', title: '掘金'},
+    {logo: '<img src="https://github.com/favicon.ico" alt="">', url: 'https://github.com/', title: 'GitHub'},
+];
+
+const render = ()=>{
+    $siteList.find('li:not(.last)').remove()
+    hashMap.forEach(node=>{
+        const $li = $(`<li>
+              <a href="${node.url}">
+                <div class="site">
+                  <div class="logo">
+                    ${node.logo}
+                  </div>
+                    <div class="title">${node.title}</div>
+                </div>
+              </a>
+        </li>`).insertBefore($lastLi)
+    }); 
+}
+
+hashMap.forEach(node=>{
+    const $li = $(`<li>
+          <a href="${node.url}">
+            <div class="site">
+              <div class="logo">
+                ${node.logo}
+              </div>
+                <div class="title">${node.title}</div>
+            </div>
+          </a>
+    </li>`).insertBefore($lastLi)
+})
+
+$('.addButton')
+  .on('click', ()=>{
+      let name = window.prompt('名称')
+      let url = window.prompt('网址') 
+      if(url.indexOf('http')!==0){
+          url = 'https://' + url
+      }
+      let img = '<img src="' + url + '/favicon.ico" alt="">'
+      console.log(url)
+      console.log(img)
+      hashMap.push({
+          logo: img,
+          url: url,
+          title: name
+      });
+      render()
+  })

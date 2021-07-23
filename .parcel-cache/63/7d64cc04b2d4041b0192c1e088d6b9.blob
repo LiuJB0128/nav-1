@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover">
+    <title>前航 - 前端导航网站</title>
+    <link rel="stylesheet" href="69189ad0d02679529c45411aa6b9e954">
+</head>
+
+<body>
+    <header class="globalHeader">
+        <div class="searchWrap" style="035a1ffd5729d57fcbecef635eb3fe34">
+            <form action="" method="GET" id="searchForm">
+                <input type="text">
+                <button id="Search">图</button>
+            </form>
+        </div>
+    </header>
+
+    <main class="globalMain">
+        <div class="siteWrap">
+            <ul class="siteContainer" style="582f25285ac34ebd2eb2f27af96ed7b7">
+                <a class="site-a" href="6f2f06ac03b0b8ddbdd6a877c875d983" data-sort="0" style="1b2f0138b230c473e6bc07e9528f7ac7">
+                    <li class="site-li" style="a4a6a0640fdfef668f126cd16f1fb34c">
+                        <span class="siteTitle" style="d040448ec7c426737c1e6331b749952f">掘金</span>
+                    </li>
+                </a>
+                <button class="addButton">add</button>
+            </ul>
+        </div>
+    </main>
+
+    <script src="050f667e079614d598ce9c8deb1fba5f"></script>
+</body>
+
+</html>

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover">
+    <title>前航 - 前端导航网站</title>
+    <style>.icon {
+           width: 1em; height: 1em;
+           vertical-align: -0.15em;
+           fill: currentColor;
+           overflow: hidden;
+        }
+</style>
+    <link rel="stylesheet" href="/index.HASH_REF_f0918a547ace1733ebc251b0de60a1d7.css">
+</head>
+
+<body>
+    <header class="globalHeader">
+        <form class="searchForm" method="GET" action="https://www.baidu.com/s">
+            <input name="wd" type="text">
+            <button type="submit" class="search-icon">
+                <svg class="icon">
+                    <use xlink:href="#icon-search"></use>
+                </svg>
+            </button>
+        </form>
+    </header>
+
+    <main class="globalMain">
+        <ul class="siteList">
+            <li>
+                <a href="https://juejin.cn/">
+                    <div class="site">
+                        <div class="logo">
+                            <img src="/juejin.HASH_REF_b44a1227404272c9a92404f5047bf5d7.png" alt="">
+                        </div>
+                        <div class="title">掘金</div>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="https://github.com/">
+                    <div class="site">
+                        <div class="logo">
+                            <img src="/GitHub.HASH_REF_d000099278a7f4b5b649da46bdf2b0a8.png" alt="">
+                        </div>
+                        <div class="title">GitHub</div>
+                    </div>
+                </a>
+            </li>
+            
+            <li>
+                <div class="addButton">
+                    <div class="iconWrapper">
+                        <svg class="icon">
+                            <use xlink:href="#icon-add"></use>
+                        </svg>
+                    </div>
+                    <div class="text">添加快捷方式</div>
+                </div>
+            </li>
+        </ul>
+    </main>
+
+    <script src="//at.alicdn.com/t/font_2689934_q60lxlegk.js"></script>
+    <script src="/index.HASH_REF_e9312995559a911a6f9b63a6bd78eeec.js"></script>
+</body>
+
+</html>
