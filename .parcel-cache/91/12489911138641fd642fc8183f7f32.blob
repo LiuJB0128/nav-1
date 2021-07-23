@@ -1,7 +1,0 @@
-$('.addButton')
-  .on('click', ()=>{
-      const url = window.prompt('网址')
-      if(url.indexOf('http')!==0){
-          url = 'https://' + url
-      }
-  })
